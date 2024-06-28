@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/custom/style.css">
+    <link rel="stylesheet" href="assets/sass/style.css">
+    <link rel="stylesheet" href="assets/css/custom/responsive.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo">
+            <img src="assets/images/WhatsApp_Image_2024-04-25_at_6.58.16_PM-removebg-preview (1).png" alt=" logo">
+        </div>
+
+        <div class="title">
+            <div class="address">28, Gopi Bose Lane, 1st Floor, Kolkata-700012</div>
+            <div class="address-other">
+                <div class="mobile">
+                    Phone:
+                    <p>9051845100</p>
+                </div>
+                <div class="gmail">
+                    Email id:
+                    <p>vikashkala@it-helpdesk.in</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <button class="btn">Print this page</button>
+
+    <script>
+        let btn = document.querySelector('.btn');
+
+        btn.addEventListener("click", () => {
+            let printContents = document.querySelector('.main').innerHTML;
+            let originalContents = document.body.innerHTML;
+
+            document.body.innerHTML = printContents;
+            window.print();
+            document.body.innerHTML = originalContents;
+        });
+    </script>
+</body>
+
+</html>

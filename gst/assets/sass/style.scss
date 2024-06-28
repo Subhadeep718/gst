@@ -1,0 +1,75 @@
+.main {
+    position: relative;
+
+    .logo {
+        width: 300px;
+        height: auto;
+        display: flex;
+        margin: 5rem 34rem 0;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .title {
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .address {
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1rem;
+        }
+
+        .address-other {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 50%;
+            height: auto;
+
+            .mobile {
+                width: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 1.5rem;
+
+                p {
+                    margin-left: 1rem;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    line-height: 1rem;
+                }
+            }
+
+            .gmail {
+                width: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 1.5rem;
+
+                p {
+                    margin-left: 1rem;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    line-height: 1rem;
+                }
+            }
+        }
+    }
+
+
+}

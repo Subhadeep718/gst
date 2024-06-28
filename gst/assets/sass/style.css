@@ -1,0 +1,64 @@
+.main {
+  position: relative;
+}
+.main .logo {
+  width: 300px;
+  height: auto;
+  display: flex;
+  margin: 5rem 34rem 0;
+}
+.main .logo img {
+  width: 100%;
+  height: auto;
+}
+.main .title {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main .title .address {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1rem;
+}
+.main .title .address-other {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: auto;
+}
+.main .title .address-other .mobile {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+.main .title .address-other .mobile p {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+.main .title .address-other .gmail {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+.main .title .address-other .gmail p {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1rem;
+}/*# sourceMappingURL=style.css.map */
